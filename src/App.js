@@ -1,11 +1,13 @@
 import './App.css';
 import styled from "styled-components";
 import Navbar from './Components/Navbar'
+import Location from './Components/Location'
 
 function App() {
   return (
     <Section>
       <Navbar />
+      <Location />
     </Section>
   );
 }
