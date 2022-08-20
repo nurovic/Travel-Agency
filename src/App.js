@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Navbar from './Components/Navbar'
 import Location from './Components/Location'
 import StepTrip from './Components/StepTrip'
+import Slide from './Components/Slide'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Location />
       <StepTrip />
+      <Slide />
     </Section>
   );
 }
