@@ -17,6 +17,10 @@ import { Pagination } from "swiper";
 const Slide = () => {
   return (
     <>
+      <Title>
+        <span className="title">TOP DESTINATION</span>
+        <span className="title-bold">Explore Top Destination</span>
+      </Title>
       <Swip
         slidesPerView={4}
         spaceBetween={15}
@@ -344,4 +348,21 @@ const Swip = styled(Swiper)`
 .swiper-pagination-bullet{
   float: right;
 }
+`
+
+const Title = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 20px 130px;
+
+  .title{
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .title-bold{
+    font-weight: 700;
+    font-size:30px;
+  }
 `
